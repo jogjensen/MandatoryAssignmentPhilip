@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_post"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/welcomeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_gravity="center">
+    </TextView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is your menu"
+        android:textSize="18dp"
+        android:textAlignment="center"
+        android:layout_gravity="center">
+    </TextView>
+
+
+    <Button
+        android:id="@+id/allMessages"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="allMessages"
+        android:text="All messages">
+
+    </Button>
+
+    <!--    <Button-->
+    <!--        android:id="@+id/sendMessage"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:onClick="???"-->
+    <!--        android:text="Send message">-->
+    <!--    </Button>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/recentComments"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:onClick="???"-->
+    <!--        android:text="Recent comments">-->
+    <!--    </Button>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/addComment"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:onClick="???"-->
+    <!--        android:text="Add comment">-->
+    <!--    </Button>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/deleteMessage"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:onClick="???"-->
+    <!--        android:text="Delete a massage">-->
+    <!--    </Button>-->
+
+    <!--    <Button-->
+    <!--        android:id="@+id/deleteComment"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:onClick="???"-->
+    <!--        android:text="Delete a comment">-->
+    <!--    </Button>-->
+
+    <Button
+        android:id="@+id/mainLogoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="logout"
+        android:text="Sign out">
+    </Button>
+
+
+
+
+
+</LinearLayout>
+
